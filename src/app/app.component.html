@@ -1,0 +1,6 @@
+<h1>welcome to hooks</h1>
+<input type="text" placeholder="Enter value.." #val>
+<button (click)="sumiteVal(val)">Sumite</button>
+<app-child *ngIf="destroy" [myvalue]="value"><br>content:{{value}}</app-child>
+<br><br>
+<button (click)="destroyButton()" class="btn">Destroy</button>
